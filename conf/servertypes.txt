@@ -1,0 +1,69 @@
+[Default]
+decrypt_mid 0
+charBlockSize 116
+charListPacket 0x6b
+maploginPacket 0000
+[bRO_2012-09-19a]
+decrypt_mid 1
+decrypt_mid_keys 0x26977a6f 0x374e3b8e 0x4dba6c1e # K M A
+charBlockSize 116
+charListPacket 0x82d
+maploginPacket 022D
+[bRO_2012-09-26a]
+decrypt_mid 1
+decrypt_mid_keys 0x146f5964 0x76792070 0x1fa30c53 # K M A
+charBlockSize 116
+charListPacket 0x82d
+maploginPacket 088E
+[bRO_2012-10-03a]
+decrypt_mid 1
+decrypt_mid_keys 0x5c18014b 0x503e1282 0x6e6b29c1 # K M A
+charBlockSize 116
+charListPacket 0x82d
+maploginPacket 0366
+[tRO_2013-07-09a]
+decrypt_mid 1
+decrypt_mid_keys 0x6441767a 0x71020102 0x48c21f02 # K A M
+charBlockSize 144
+[bRO_2013-10-15a]
+decrypt_mid 1
+decrypt_mid_keys 0x68ec42e1 0x1b555d2b 0x1bd66d37 # K M A
+charBlockSize 124
+charListPacket 0x82d
+maploginPacket 0862
+[bRO_2013-10-22a]
+decrypt_mid 1
+decrypt_mid_keys 237578616 1894265000 1558054481 # K M A
+charBlockSize 124
+charListPacket 0x82d
+maploginPacket 0363
+[bRO_2013-11-05a]
+decrypt_mid 1
+decrypt_mid_keys 32243938 2038519091 74664075 # A K M
+charBlockSize 124
+charListPacket 0x82d
+maploginPacket 094C
+[bRO_2013-11-12a]
+decrypt_mid 1
+decrypt_mid_keys 869545760 117653186 935219258 # A K M
+charBlockSize 124
+charListPacket 0x82d
+maploginPacket 087F
+[bRO_2013-11-19a]
+decrypt_mid 1
+decrypt_mid_keys  538998697 1520043897 922682661
+charBlockSize 124
+charListPacket 0x82d
+maploginPacket 086D
+[bRO_2016-04-03ax]
+decrypt_mid 1
+decrypt_mid_keys 1239375751 1877176040 1910250746
+charBlockSize 124
+charListPacket 0x82d
+maploginPacket 089F
+[bRO_2016-04-03a]
+decrypt_mid 1
+decrypt_mid_keys 1877176040 1910250746 1239375751 # A K M
+charBlockSize 124
+charListPacket 0x82d
+maploginPacket 089F

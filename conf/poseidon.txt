@@ -1,0 +1,27 @@
+TimedTasker_Reaper=60
+TimedTasker_Reconfig=90
+TimedTasker_Title=5
+ReaperTime=-1
+ServerType=bRO_2016-04-03a
+RagnarokServerIp=127.0.0.1
+RagnarokServerPort=6902
+QueryServerIp=0.0.0.0
+QueryServerPort=24666
+RequestTimeout=50
+FirstRequestTimeout=27
+QueueMaxSize=20
+MinimumRequestInterval=0.1
+SleepTime=0.005
+
+PushOverUserKey=YOUR_PUSHOVER_KEY
+PushOverApp=YOUR_PUSHOVER_APP
+PushOverEnabled=1
+
+DeadClientNotificationTimeout=300
+
+SecretKey=HADESNEW0987654321
+TitleTemplate=HADES -> Clients: %1$d [Free: %2$d | Ready: %3$d | Dead: %5$d] %4$s Avg: %6$.2fs
+
+FirstRequestExclusiveProcessing=0
+
+KickClientWhenInvalidPacket=0

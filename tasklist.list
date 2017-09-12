@@ -1,0 +1,13 @@
+(DONE) * Validar se o client já está respondendo a um request antes de enviar outro
+(DONE) * Verificar totalmente se o client já está associado antes de efetuar "bound"
+(DONE) * Colocar requests de numero 1 e 2 no topo da fila
+(DONE) * Investigar pq crasha sem msg - é pq estava ocultando as msg, mas descobrimos que era pacote
+(DONE) * Poseidon crasha com pacote 04EE
+	(DONE) * ao crashar, salvar log do pacote completo (sem demangle)
+	(DONE) * salvar pacotes anteriores
+	(DONE) * ao invés de crashar, mandar client para charserver
+(DONE) * Implementar sistema simples de log
+(DONE) * Implementar timeout nos itens da queue
+	(DONE) *  Gerar um log ao efetuar um timeout, já que nunca deveriamos ter timeouts.
+* Se o request não é de index 0, não podemos responder se não já tiver um client ligado a este bot
+* temos um problema com pacotes de reply do GG vindo duplicados
