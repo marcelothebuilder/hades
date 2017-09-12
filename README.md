@@ -1,6 +1,24 @@
 # HADES Server - Improved Poseidon server
 
 > Openkore server/plugin.
+```
+      (                      )                 
+      |\    _,--------._    / |
+      | `.,'            `. /  |
+      `  '              ,-'   '
+       \/_         _   (     /               |   |,---.    | Apr 2016
+      (,-.`.    ,',-.`. `__,'                |---||---|,---|,---.,---.
+       |/#\ ),-','#\`= ,'.` |                |   ||   ||   ||---'`---.
+       `._/)  -'.\_,'   ) ))|                `   '`   '`---'`---'`---'     
+       /  (_.)\     .   -'//                             revok.com.br
+      (  /\____/\    ) )`'\                     
+       \ |V----V||  ' ,    \                    
+        |`- -- -'   ,'   \  \      _____        
+ ___    |         .'    \ \  `._,-'     `-      
+    `.__,`---^---'       \ ` -'
+       -.______  \ . /  ______,-
+               `.     ,'            
+```                        
 
 Based on Poseidon, but ready for multiple access and pluggable architecture. Also has commands baked into that can help with network debugging.
 
