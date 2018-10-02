@@ -156,7 +156,7 @@ set modules=%modules% -M LWP::UserAgent
 rem set resources=-a hades.banner -a ./resources/HADES_Icon.png;resources/HADES_Icon.png 	-a ./conf/recvpackets.txt;conf/recvpackets.txt -a ./conf/servertypes.txt;conf/servertypes.txt
 @echo on
 echo BUILD EXE
-pp -o built/hades_server.exe poseidon.pl -f Crypto -F Crypto -z 9 %includes% %modules%
+pp -o built/hades_server.exe hades_start.pl -f Crypto -F Crypto -z 9 %includes% %modules%
 
 REM -M File::Path
 pause
