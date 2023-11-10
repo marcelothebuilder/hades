@@ -1,0 +1,28 @@
+repo_name: marcelothebuilder/hades
+report_id: 37df4def17587ac29ad486371e129ebb
+repo_type: Public
+timestamp: '2023-11-10T19:50:11+00:00'
+requested_by: marcelothebuilder
+provider: github
+branch: master
+detected_tools_count: 2
+tools:
+- name: Perl
+  description: Highly capable, feature-rich programming language with over 26 years
+    of development
+  website_url: http://www.perl.org/
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1048/perl.png
+  detection_source: Repo Metadata
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source: Repo Metadata
